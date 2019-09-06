@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+.logo{
+	margin:auto;
+	margin-top:4px;
+	width:60px;
+	height:60px;
+	border-radius:50%;
+	background-image: url(images/logo.png);
+	background-position:center;
+	background-size:contain;
+}
+.logo a:hover{
+	background: #242424;
+}
+.fn{
+	color:#FFF; 
+	background:#000;
+	background-image:url(images/fn.png);
+	background-repeat:no-repeat;
+	background-position:bottom center;
+}
+.fn a:hover { 
+	color:#FFF; 
+	background:#000;
+	background-image:url(images/fn.png);
+	background-repeat:no-repeat;
+	background-position:bottom center;
+	} 
+nav{
+    position: relative;
+    z-index: 1000;
+    height: 70px;
+    box-sizing: border-box;
+    background: #242424;
+    border-bottom: 1px solid #000;
+}
+nav ul{
+	margin-left:25%;
+	list-style:none;
+	}
+nav ul li{ 
+	width:150px;
+	height:70px;
+	float:left; 
+	line-height:70px; 
+	text-align:center; 
+	position:relative;
+	}   
+nav ul li a{ 
+	text-decoration:none; 
+	display:block;
+	padding:0px 10px;
+	color:#FFF;
+	}
+ 
+nav ul li a:hover { 
+	color:#FFF; 
+	background:#000;
+	} 
+nav ul li ul{ 
+	margin-left:0px;
+	position:relative; 
+	display:none;
+	}  
+nav ul li ul li{ 
+	float:left;
+	text-align:left;
+	background-color:#999;
+	}  
+nav ul li ul li a{ 
+	line-height:70px; 
+	}  
+nav ul li ul li a:hover{ 
+	background-color:#06f;
+	}  
+nav ul li:hover ul{ 
+	display:block;
+	} 
+#srch{
+	margin-top:27px;
+}
+.btn{
+	margin-top:-25px;
+}
+.btn input{
+	width:75px;
+	height:30px;
+	background-color:#242424;
+	margin-left:200px;
+	color:#FFF;
+	font-family:"微软雅黑";
+	font-size:18px;
+	border-radius:15px;
+}
+.nav2{
+    height: 35px;
+	text-height:35px;
+    box-sizing: border-box;
+    background-color: #C20C0C;
+    border-bottom: 1px solid #a40011;
+}
+.nav2 ul{
+	margin-left:25%;
+	list-style:none;
+    display: block;
+}
+.nav2 ul li{
+	float:left;
+	width:50px;
+	height:35px;
+	line-height:35px;
+    padding-left:150px;
+	text-align:center; 
+	font-size:14px;
+}
+.nav2 ul li a{ 
+	text-decoration:none; 
+	display:block;
+	padding:0px 10px;
+	color:#FFF;
+	}  
+.nav2 ul li a:hover{ 
+ 	height: 35px;
+	border-radius:20px;
+	color:#FFF; 
+	background:#900;
+	}
+.tj a{
+	border-radius:20px;
+	background:#900;
+}
+ 
+.tupian{
+	width:100%;
+	height:336px;
+	overflow:hidden;
+	margin:auto;
+	}
+.one{
+	background-color:#e2c48e;
+}
+.two{
+	background-color:#325342;
+}
+.three{
+	background-color:#38667d;
+}
+.four{
+	background-color:#F90;
+}
+.five{
+	background-color:#e7ae5f;
+}
+.six{
+	background-color:#4e5241;
+}
+.rmtj1{
+	margin-top:10px;
+	margin-left:30%;
+	width:700px;
+    height: 33px;
+    padding: 0 10px 0 34px;
+    background-position: -225px -156px;
+    border-bottom: 2px solid #C10D0C;
+}
+.rmtj1 .a{
+	float: left;
+	color:#000;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+}
+.rmtj1 a{
+	text-decoration:none; 
+}
+.rmtj1 a:hover{ 
+	background-color:#999;
+	} 
+.rmtj1 .b {
+    float: left;
+    margin: 5px 0 0 20px;
+}
+.rmtj1 .b a{
+	color:#000;
+	text-decoration:none; 
+}
+.rmtj1 .b a:hover{ 
+	color:#000;
+	background-color:#999;
+} 
+.rmtj2{
+	margin-left:27%;
+	width:900px;
+}
+.rmtj2 ul{
+	list-style:none;
+}
+.rmtj2 ul li{
+	float:left;
+	margin:20px 0 0 58px;
+}
+.rmtj2 p{
+	width:142px;
+}
+.bottom{
+	width:100%;
+	height:120px;
+	background-color:#dfdfdf;
+	float:left;
+	margin-top:20px;
+}
+.bottom .xinxi{
+	text-align:center;
+	font-size:18px;	
+}
+.bottom .msg{
+	float:right;
+	text-align:left;
+	font-size:18px;	
+}
+
+
+
+/*以下配合JS使用，增添图片滚动*/
+.picture {width: 624px;height: 336px;font-size: 40px;text-align: center;margin: auto;background-color: #464576;}
+.carousel-item{line-height: 336px;color: #fff;font-family:  Arial Black}
+.ft-carousel {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.ft-carousel .carousel-inner {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+}
+
+.ft-carousel .carousel-inner .carousel-item {
+	float: left;
+	height: 100%;
+}
+
+.ft-carousel .carousel-item img {
+	width: 100%;
+}
+
+.ft-carousel .carousel-indicators {
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+	font-size: 0;
+}
+
+.ft-carousel .carousel-indicators span {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-color: #fff;
+	margin: 0 4px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.ft-carousel .carousel-indicators span.active {
+	background-color: #de3a3a;
+}
+
+.ft-carousel .carousel-btn {
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	height: 45px;
+	margin-top: -25px;
+	cursor: pointer;
+}
+
+.ft-carousel .carousel-prev-btn {
+	left: 0;
+	background: url(images/prev.png) no-repeat;
+}
+
+.ft-carousel .carousel-next-btn {
+	right: 0;
+	background: url(images/next.png) no-repeat;
+}
+
+
+
+
+

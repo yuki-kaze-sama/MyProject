@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: product-data-service-feign
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Administrator
+Implementation-Vendor-Id: com.lhw
+Build-Jdk: 1.8.0_131
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/SpringCloud/product-data-service-feign
+Created-By: Maven Integration for Eclipse
+
